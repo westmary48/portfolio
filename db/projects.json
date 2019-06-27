@@ -1,0 +1,29 @@
+{
+  "project1": {
+     "title": "Movie History",
+     "screenshot": "",
+     "description": "This project was our first introduction into CRUD and firebase",
+     "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Version Control with Github, Jquery, CRUD, Axios",
+     "available": true,
+     "url": "",
+     "githubUrl": "https://github.com/westmary48"
+   },
+  "project2": {
+     "title": "Nutshell Group Project",
+     "screenshot": "",
+     "description": "This was a group project where we used firebase and CRUD.",
+     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, CRUD, firebase, axios",
+     "available": true,
+     "url": "",
+     "githubUrl": "https://github.com/westmary48"
+ },
+   "project3": {
+   "title": "",
+   "screenshot": "",
+   "description": "This was the first project we did on our own with react.",
+   "technologiesUsed": "React, SASS, Firebase, npm, JavaScript, Version Control with Github",
+   "available": true,
+   "url": "",
+   "githubUrl": "https://github.com/westmary48"
+}
+}

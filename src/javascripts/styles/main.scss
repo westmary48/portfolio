@@ -1,0 +1,89 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  font-size: 16pt;
+  color: black;
+}
+
+/*
+.navBar {
+  background-image: url('https://www.foodtravelexperts.com/international/wp-content/uploads/2016/07/banner-home3.jpg');
+  width: 4000px;
+  height: 730px;
+  margin: 0;
+  padding: 0;
+  z-index:-1;
+} */
+
+#navLinks {
+text-align: center;
+}
+
+.aboutMe {
+  display: flex;
+  align-items: stretch;
+
+}
+
+.aboutMe p {
+  background-color: black;
+  color: white;
+  background-size: cover;
+}
+
+#bioPage {
+
+}
+
+.page-footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.images {
+display: flex;
+flex: wrap;
+width: 150px;
+height: 150px;
+margin: auto;
+margin-top: 10px;
+margin-left: 10px;
+padding: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+.techContainer {
+  background-color:  #FFFFFF;
+}
+
+.projectsPage {
+      border-radius: .25rem;
+      width: 40%;
+box-shadow:10px 10px 5px;
+border: 1px solid lightblue;
+margin-right: 40px;
+margin-top: 33px;
+background-color:#F5F5F5;
+justify-content: center
+
+    }
+
+#technologiesPage {
+  display: flex;
+  flex: wrap;
+    }
+
+#projectsPage {
+  display: flex;
+  flex: wrap;
+}
+
+#bioPage  {
+  display: flex;
+}
+
+.hideStuff {
+  display: none!important;
+}
