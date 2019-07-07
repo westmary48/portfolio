@@ -9,6 +9,7 @@ body {
   background-position:center center;
 }
 
+
 .navbar-brand {
   display: flex;
   justify-content: center;
@@ -23,11 +24,26 @@ body {
 .aboutMe {
   display: flex;
   align-items: stretch;
+}
 
+.myPhoto {
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+  background-color:#666666;
+  position:absolute;
+  right:150px;
+  top:300px;
+}
+
+.welcome {
+  right: 150px;
 }
 
 .home {
-
+  font: bolder;
+  color:black ;
+  text-shadow: white 0px 0px 10px;
 }
 
 .aboutMe p {
@@ -40,11 +56,13 @@ body {
 }
 
 .page-footer {
+  position: absolute;
   display: flex;
   justify-content: space-around;
-  // background-color: black;
   color: black;
-  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }
 .images {
 display: flex;
@@ -94,8 +112,8 @@ justify-content: center
   display: none!important;
 }
 
-.page-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
+// .page-footer {
+//     position: absolute;
+//     bottom: 0;
+//     width: 100%;
+// }
