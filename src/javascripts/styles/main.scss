@@ -3,9 +3,21 @@
 body {
   font-size: 16pt;
   color: black;
+  background-image: url('https://www.tokkoro.com/picsup/2039100-coffee-cup-and-keyboard-computer-notebook-on-wooden-table-background.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
 }
-#navLinks {
-text-align: center;
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
 }
 
 .aboutMe {
@@ -14,19 +26,24 @@ text-align: center;
 
 }
 
-.aboutMe p {
-  background-color: black;
-  color: white;
-  background-size: cover;
+.home {
+
 }
 
-#bioPage {
-
+.aboutMe p {
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
 }
 
 .page-footer {
-  background-color: black;
-  color: white;
+  display: flex;
+  justify-content: space-around;
+  // background-color: black;
+  color: black;
   text-align: center;
 }
 .images {
@@ -40,12 +57,12 @@ margin-left: 10px;
 padding: 10px;
 }
 
-li {
-  list-style-type: none;
-}
-.techContainer {
-  background-color:  #FFFFFF;
-}
+// li {
+//   list-style-type: none;
+// }
+// .techContainer {
+//   background-color:  #FFFFFF;
+// }
 
 .projectsPage {
       border-radius: .25rem;
