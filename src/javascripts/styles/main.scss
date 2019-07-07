@@ -65,22 +65,14 @@ body {
   height: 2.5rem;
 }
 .images {
-display: flex;
-flex: wrap;
-width: 150px;
-height: 150px;
+width: 250px;
+height: 250px;
 margin: auto;
 margin-top: 10px;
 margin-left: 10px;
 padding: 10px;
 }
 
-// li {
-//   list-style-type: none;
-// }
-// .techContainer {
-//   background-color:  #FFFFFF;
-// }
 
 .projectsPage {
       border-radius: .25rem;
@@ -96,8 +88,10 @@ justify-content: center
 
 #technologiesPage {
   display: flex;
-  flex: wrap;
-    }
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
 
 #projectsPage {
   display: flex;
