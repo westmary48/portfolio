@@ -1,8 +1,12 @@
 import 'bootstrap';
-import '../styles/main.scss';
+
+import events from './helpers/events';
+import './styles/main.scss';
+import projects from './projects/projects';
 
 const init = () => {
-  console.error('Hi');
+  events.addEvents();
+  projects.createProjectCards();
 };
 
 init();
