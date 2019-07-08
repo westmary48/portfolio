@@ -11,10 +11,10 @@
   "project2": {
      "title": "Nutshell Group Project",
      "screenshot": "",
-     "description": "This was a group project where we used firebase and CRUD.",
+     "description": "This was a group project where we used firebase and CRUD. I completed full crud on the messages component and completed the authentication, deployment, and users",
      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, CRUD, firebase, axios",
      "available": true,
-     "url": "",
+     "url": "https://nutshell-pines.firebaseapp.com/",
      "githubUrl": "https://github.com/westmary48"
  },
    "project3": {
