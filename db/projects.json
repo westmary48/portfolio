@@ -1,11 +1,11 @@
 {
   "project1": {
-     "title": "Movie History",
+     "title": "Fishstore",
      "screenshot": "",
-     "description": "This project was our first introduction into CRUD and firebase",
+     "description": "This project was our first introduction into React. We used full CRUD and Firebase in this project",
      "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Version Control with Github, Jquery, CRUD, Axios",
      "available": true,
-     "url": "",
+     "url": "https://fishstore-3a31c.firebaseapp.com/",
      "githubUrl": "https://github.com/westmary48"
    },
   "project2": {
