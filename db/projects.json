@@ -1,7 +1,7 @@
 {
   "project1": {
      "title": "Fishstore",
-     "screenshot": "fishstore.png",
+     "screenshot": "",
      "description": "This project was our first introduction into React. We used full CRUD and Firebase in this project",
      "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Version Control with Github, Jquery, CRUD, Axios",
      "available": true,
