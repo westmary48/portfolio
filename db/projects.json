@@ -10,7 +10,7 @@
    },
   "project2": {
      "title": "Nutshell Group Project",
-     "screenshot": "pine.png",
+     "screenshot": "",
      "description": "This was a group project where we used firebase and CRUD. I completed full crud on the messages component and completed the authentication, deployment, and users",
      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, CRUD, firebase, axios",
      "available": true,
