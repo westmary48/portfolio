@@ -1,11 +1,11 @@
 {
   "project1": {
-     "title": "Fishstore",
+     "title": "Fish Store",
      "screenshot": "",
      "description": "This project was our first introduction into React. We used full CRUD and Firebase in this project",
      "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Version Control with Github, Jquery, CRUD, Axios",
-     "available": true,
      "url": "https://fishstore-3a31c.firebaseapp.com/",
+     "available": true,
      "githubUrl": "https://github.com/westmary48/fishstore"
    },
   "project2": {
@@ -13,8 +13,8 @@
      "screenshot": "",
      "description": "This was a group project where we used firebase and CRUD. I completed full crud on the messages component and completed the authentication, deployment, and users",
      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, CRUD, firebase, axios",
-     "available": true,
      "url": "https://nutshell-pines.firebaseapp.com/",
+     "available": true,
      "githubUrl": "https://github.com/nss-evening-cohort-9/nutshell-pine"
  },
    "project3": {

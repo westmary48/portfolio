@@ -75,15 +75,14 @@ padding: 10px;
 
 
 .projectsPage {
-      border-radius: .25rem;
-      width: 40%;
+border-radius: .25rem;
+width: 100%;
 box-shadow:10px 10px 5px;
 border: 1px solid lightblue;
 margin-right: 40px;
 margin-top: 33px;
 background-color:#F5F5F5;
 justify-content: center
-
     }
 
 #technologiesPage {
@@ -96,8 +95,7 @@ justify-content: center
 #projectsPage {
   display: flex;
   flex: wrap;
-  width: 33%;
-
+  width: 50%;
 }
 
 #bioPage  {
@@ -106,6 +104,10 @@ justify-content: center
 
 .hideStuff {
   display: none!important;
+}
+
+.strong {
+  font-size: 80px;
 }
 
 // .page-footer {
