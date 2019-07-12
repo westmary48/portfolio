@@ -1,10 +1,10 @@
-import Axios from 'axios';
+import axios from 'axios';
 import apiKeys from '../apiKeys.json';
 
 const firebaseUrl = apiKeys.firebaseKeys.databaseURL;
 
 const getProjects = () => new Promise((resolve, reject) => {
-  Axios.get(`${firebaseUrl}/projects.json`)
+  axios.get(`${firebaseUrl}/projects.json`)
     .then((results) => {
       const projectResults = results.data;
       const projects = [];

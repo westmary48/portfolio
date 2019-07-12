@@ -1,6 +1,7 @@
+import projectData from '../helpers/data/projectsData';
 
 import util from '../helpers/util';
-import projectData from '../helpers/data/projectsData';
+
 
 const createProjectCards = () => {
   let domString = '';

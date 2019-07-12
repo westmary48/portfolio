@@ -6,7 +6,7 @@
      "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Version Control with Github, Jquery, CRUD, Axios",
      "available": true,
      "url": "https://fishstore-3a31c.firebaseapp.com/",
-     "githubUrl": "https://github.com/westmary48"
+     "githubUrl": "https://github.com/westmary48/fishstore"
    },
   "project2": {
      "title": "Nutshell Group Project",
@@ -15,7 +15,7 @@
      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, CRUD, firebase, axios",
      "available": true,
      "url": "https://nutshell-pines.firebaseapp.com/",
-     "githubUrl": "https://github.com/westmary48"
+     "githubUrl": "https://github.com/nss-evening-cohort-9/nutshell-pine"
  },
    "project3": {
    "title": "",
