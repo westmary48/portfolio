@@ -25,7 +25,7 @@
 },
 
   "project4": {
-  "title": "Chatty",
+  "title": "Chatty Group Project",
   "description": "This was our second group project. It is a messaging app that has some cool features.",
   "technologiesUsed": "JavaScript, SASS, HTML, NPM, Webpack, Version Control with Github",
   "available": true,
