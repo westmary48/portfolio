@@ -1,29 +1,35 @@
 {
   "project1": {
      "title": "Fish Store",
-     "screenshot": "",
-     "description": "This project was our first introduction into React. We used full CRUD and Firebase in this project",
-     "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Version Control with Github, Jquery, CRUD, Axios",
+     "description": "This project was our first introduction into React. We used full CRUD and Firebase in this project.",
+     "technologiesUsed": "React, HTML, SCSS, JavaScript, Github, CRUD, Axios, Webpack, Firebase, NPM",
      "url": "https://fishstore-3a31c.firebaseapp.com/",
      "available": true,
      "githubUrl": "https://github.com/westmary48/fishstore"
    },
   "project2": {
      "title": "Nutshell Group Project",
-     "screenshot": "",
-     "description": "This was a group project where we used firebase and CRUD. I completed full crud on the messages component and completed the authentication, deployment, and users",
-     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, CRUD, firebase, axios",
+     "description": "This was our last group project where we used Firebase and CRUD. Our application was designed to be similar to the app Next Door.",
+     "technologiesUsed": "HTML, CSS, JavaScript, Version Control with Github, Firebase, Axios, Webpack, NPM, JQuery.",
      "url": "https://nutshell-pines.firebaseapp.com/",
      "available": true,
      "githubUrl": "https://github.com/nss-evening-cohort-9/nutshell-pine"
  },
    "project3": {
-   "title": "",
-   "screenshot": "",
-   "description": "This was the first project we did on our own with react.",
-   "technologiesUsed": "React, SASS, Firebase, npm, JavaScript, Version Control with Github",
+   "title": "React Hoarder",
+   "description": "This was the first project we did on our own with react that included routing.",
+   "technologiesUsed": "React, SASS, Firebase, NPM, JavaScript, Webpack, Version Control with Github, Axios.",
    "available": true,
-   "url": "",
+   "url": "https://react-hoarder-a9d9a.firebaseapp.com",
    "githubUrl": "https://github.com/westmary48"
+},
+
+  "project4": {
+  "title": "Chatty",
+  "description": "This was our second group project. It is a messaging app that has some cool features.",
+  "technologiesUsed": "JavaScript, SASS, HTML, NPM, Webpack, Version Control with Github",
+  "available": true,
+  "url": "",
+  "githubUrl": "https://github.com/nss-evening-cohort-9/chatty-house-lannister"
 }
 }

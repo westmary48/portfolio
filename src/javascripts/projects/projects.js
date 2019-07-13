@@ -10,11 +10,9 @@ const createProjectCards = () => {
       for (let i = 0; i < projects.length; i += 1) {
         if (projects[i].available === true) {
           domString += '<div class = "projectsPage col">';
-          domString += `<h5 class = "projectTitle">${projects[i].title}</h5> `;
-          domString += `<img src ="${projects[i].screenshot}"/img> `;
-          domString += `<h5>${projects[i].description}<h5>`;
-          domString += `<h5>${projects[i].technologiesUsed}<h5>`;
-          domString += '<p class="projectLinks">Links</p>';
+          domString += `<h5 class = "projectTitle"><strong>${projects[i].title}</strong></h5> `;
+          domString += `<h5 class = "description">DESCRIPTION: ${projects[i].description}<h5>`;
+          domString += `<h5 class = "technologiesUsed">TECHNOLOGIES USED: ${projects[i].technologiesUsed}<h5>`;
           domString += `<a class="links" href="${projects[i].url}" target="_blank">${projects[i].title}</a><br>`;
           domString += `<a class="links" href="${projects[i].githubUrl}" target="_blank">GitHub</a>`;
           domString += '</div>';
