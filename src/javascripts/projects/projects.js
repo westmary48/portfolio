@@ -1,24 +1,25 @@
-
-import util from '../helpers/util';
 import projectData from '../helpers/data/projectsData';
 
+import util from '../helpers/util';
+
+
 const createProjectCards = () => {
-  let domString = '';
   projectData.getProjects()
     .then((projects) => {
-      projects.forEach((project) => {
-        domString += '<div class = "projectsPage">';
-        domString += `<h3>${project.title}</h3> `;
-        domString += `<img>${project.screenshot}</img> `;
-        domString += `<h3>${project.description}<h3>`;
-        domString += `<h3>${project.technologiesUsed}<h3>`;
-        domString += `<h3>${project.available}<h3>`;
-        domString += `<a href>${project.url}</a>`;
-        domString += `<a href>${project.githubUrl}</a>`;
-        domString += '</div>';
-      });
+      let domString = '';
+      for (let i = 0; i < projects.length; i += 1) {
+        if (projects[i].available === true) {
+          domString += '<div class = "projectsPage col">';
+          domString += `<h5 class = "projectTitle"><strong>${projects[i].title}</strong></h5> `;
+          domString += `<h5 class = "description">DESCRIPTION: ${projects[i].description}<h5>`;
+          domString += `<h5 class = "technologiesUsed">TECHNOLOGIES USED: ${projects[i].technologiesUsed}<h5>`;
+          domString += `<a class="links" href="${projects[i].url}" target="_blank">${projects[i].title}</a><br>`;
+          domString += `<a class="links" href="${projects[i].githubUrl}" target="_blank">GitHub</a>`;
+          domString += '</div>';
+        }
+      }
       util.printToDom('projectsPage', domString);
-    });
+    }).catch(err => console.error('projects not showing up', err));
 };
 
 export default { createProjectCards };
